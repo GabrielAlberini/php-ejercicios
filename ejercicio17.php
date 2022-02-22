@@ -7,7 +7,7 @@ if($_POST) {
     //Funciones en php
     function imprimirMiNombre($nombre){
         //Rutinas
-        echo "Hola {$nombre} <br>";
+        echo "Hola {$nombre}! <br>";
     }
 
     //Valida de que el valor que se pasa por el input no este vacio.

@@ -14,7 +14,7 @@
             break;
             case 3:
                 echo "<p class='titulo'>Haz presionado el botón <b>3</b></p>";
-            default: $valueButton = 0;
+            default: $valueButton;
         }
 
     }

@@ -9,7 +9,7 @@
     $numRandom = rand($min, $max);
 
     //Implode. Función de php que une los elementos de un array según el separador que le indiques en el primer parametro.
-    $arrayString = implode("-", $array);
+    $arrayString = implode(", ", $array);
 
     //Convertir un array a mayusculas.
     $upperString = strtoupper($lowerString);

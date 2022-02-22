@@ -1,8 +1,9 @@
 <?php
 
     if($_POST){
-        //Recibir información del formulario HTML ( Método POST )
-        $nombre=$_POST['txtNombre'];
+
+        //Recibir información del formulario HTML ( Método POST ). Este método manda información al servidor de manera no visible.
+        $nombre = $_POST['txtNombre'];
             
         echo "Hola ".$nombre;
     };
@@ -20,9 +21,15 @@
 <body>
     <form action="ejercicio2.php" method="post">
         Nombre:
-        <input type="text" name="txtNombre">
+        <input 
+            type="text" 
+            name="txtNombre"
+        >
         <br/>
-        <input type="submit" value="Enviar">
+        <input 
+            type="submit" 
+            value="Enviar"
+        >
     </form>
 </body>
 </html>

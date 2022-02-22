@@ -1,9 +1,8 @@
 <?php
 
+    //Las variables pueden guardar todo tipo de datos.
     $Nombre = "Lola";
-
     $Edad = 12;
-
     $Hobbies = "jugar y saltar";
 
     //En php se pueden concatenar cualquier tipo de datos, desde string a numbers.

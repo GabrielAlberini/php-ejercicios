@@ -1,8 +1,9 @@
 <?php 
 
     if($_POST) {
-        $nombre = $_POST['txtNombre'];
 
+        //Se pueden capturar multiples valores cuando un formulario se envia.
+        $nombre = $_POST['txtNombre'];
         $apellido = $_POST['txtApellido'];
 
         //En php los datos se concatenan mediante el el punto "."
@@ -28,10 +29,19 @@
         <br>
         <label>
             Apellido
-            <input type="text" name="txtApellido" id="apellido">
+            <input 
+                type="text" 
+                name="txtApellido" 
+                id="apellido"
+            >
         </label>
         <br>
-        <button type="submit" value="Enviar">Enviar</button>
+        <button 
+            type="submit" 
+            value="Enviar"
+        >
+            Enviar
+        </button>
     </form>
 </body>
 </html>
